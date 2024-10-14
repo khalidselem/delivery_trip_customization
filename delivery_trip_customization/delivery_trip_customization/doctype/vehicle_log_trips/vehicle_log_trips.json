@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-02 13:41:09.567303",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_trip",
+  "fuel_qty",
+  "price",
+  "total_fuel_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "delivery_trip",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Delivery Trip",
+   "options": "Delivery Trip",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fuel_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Fuel Qty"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fuel Price"
+  },
+  {
+   "fieldname": "total_fuel_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Fuel Cost",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-02 13:41:09.567303",
+ "modified_by": "Administrator",
+ "module": "Delivery Trip Customization",
+ "name": "Vehicle Log Trips",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
